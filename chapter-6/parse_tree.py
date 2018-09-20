@@ -41,5 +41,5 @@ def evaluate(parseTree):
         return parseTree.getRootVal()
 
 pt = buildParseTree("( ( 10 + 5 ) * 3 )")
-# pt.postorder()
+pt.postorder()
 print(evaluate(pt))
